@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="HELLO"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:cardElevation="4dp"
+    android:background="#07A6EB"
+    android:gravity="centre"
+    android:orientation=""
+    android:theme="@drwable/widget_background">
+
+
+    <TextView
+        android:id="@+id/my_button"
+        style="@style/Widget.Trackapp.AppWidget.InnerView"
+        ing
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:layout_margin="8dp"
+        android:contentDescription="CLICK HERE"
+        android:text="THIS IS A CARD WIDGET"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/Widget.Trackapp.AppWidget.Container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="4dp"
+android:layout_margin="12dp"
+android:visibility="visible"
+android:padding="@dimen/widget_margin"
+android:background="@drawable/widget_background">
+
+
+<TextView
+    android:id="@+id/appwidget_text"
+    style="@style/Widget.Trackapp.AppWidget.InnerView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_margin="8dp"
+    android:contentDescription="HELLO"
+"@string/appwidget_text"
+    android:text="@string/appwidget_text"
+    android:textSize="24sp"
+    android:textStyle="bold|italic" />
+</LinearLayout>
